@@ -1,0 +1,12 @@
+{
+    "name" : "SimiGen", 
+    "description" : "SimiGen is an application which allows to transform a Data Dictionary into a DB script and viceversa.",
+    "version" : "0.1",
+    "manifest_version" : 2,
+    "app": {
+        "background": {
+            "scripts" : ["js/background.js"]                     
+        }        
+    },
+    "icons": {"16": "icons/database.png", "128": "icons/database_2.png"}  
+}
